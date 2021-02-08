@@ -263,14 +263,21 @@ figcaption{
 }
 
 @media (max-width: 500px) {
+	.pre-banner p{
+		width: 100%;
+	}
 	.section-one{
-		padding: 25px 20px;
+		/* padding: 25px 20px; */
+	}
+	.p1 {
+		padding-left: 0 !important;
+		padding-right: 0 !important;
 	}
 	.p1 h1 {
 		width: 100%;
 		color: #2ca2f3;
 		font-size: 30px;
-		text-align: center;
+		text-align: left;
 	}
 	.p1 p{
 		margin-top: 20px;
